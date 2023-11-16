@@ -1,0 +1,20 @@
+{
+  "name": "boletos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Luaanaapereiraa/boletos.git",
+  "author": "luaanaaperiraa <luanapdsantos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsc"
+  }
+}
